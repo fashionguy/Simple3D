@@ -209,9 +209,8 @@ def mouseclick(button, state, x, y):
     MOUSE_X, MOUSE_Y = x, y
 
     if button == GLUT_LEFT_BUTTON:
-
         LEFT_IS_DOWNED = state == GLUT_DOWN
-
+        # glutPostRedisplay()
     elif button == 3:
 
         SCALE_K *= 1.05

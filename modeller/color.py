@@ -1,4 +1,3 @@
-# -*- coding: utf8 -*-
 MAX_COLOR = 9
 MIN_COLOR = 0
 COLORS = { # RGB Colors
@@ -13,3 +12,4 @@ COLORS = { # RGB Colors
     8:  (0.4, 0.4, 0.4),
     9:  (0.0, 0.0, 0.0),
 }
+

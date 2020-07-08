@@ -54,7 +54,7 @@ def Draw():
     glLineWidth(1)
     glBegin(GL_POLYGON)
     for i in range(100):
-        glVertex2f(0.03 * math.cos(2 * PI / 100 * i), 0.03 * math.sin(2 * PI / 100 * i));
+        glVertex2f(0.03 * math.cos(2 * PI / 100 * i), 0.03 * math.sin(2 * PI / 100 * i))
     glEnd()
     glFlush()
 
